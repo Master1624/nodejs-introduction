@@ -2,6 +2,7 @@ const args = process.argv.slice(2);
 
 let min = 1;
 let max = 100;
+let error = false;
 
 if (args.length >= 2) {
   const parseMin = parseInt(args[0], 10);
@@ -11,12 +12,15 @@ if (args.length >= 2) {
     min = parseMin;
     max = parseMax;
   } else {
+    error = true;
     console.error("⚠️ Rango inválido. Usando valores por defecto (1-100)");
   }
 }
 
-const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
+if (!error) {
+  const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
 
-console.log(
-  `🎲 Número aleatorio generado entre ${min} y ${max}: ${randomNumber}`
-);
+  console.log(
+    `🎲 Número aleatorio generado entre ${min} y ${max}: ${randomNumber}`
+  );
+}
