@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-introduction",
+  "version": "1.0.0",
+  "description": "nodejs examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Master1624/nodejs-introduction.git"
+  },
+  "author": "Juan David Paladines <jdpa83@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Master1624/nodejs-introduction/issues"
+  },
+  "homepage": "https://github.com/Master1624/nodejs-introduction#readme"
+}
