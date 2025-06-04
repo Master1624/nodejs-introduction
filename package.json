@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Master1624/nodejs-introduction/issues"
   },
-  "homepage": "https://github.com/Master1624/nodejs-introduction#readme"
+  "homepage": "https://github.com/Master1624/nodejs-introduction#readme",
+  "dependencies": {
+    "is-odd": "3.0.1"
+  }
 }
